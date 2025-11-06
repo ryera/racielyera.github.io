@@ -4,7 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Raciel Yera Toledo</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #111111;
+      --accent: #007ACC;
+      --font: 'Inter', sans-serif;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font);
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    main {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+    }
+    .subtitle {
+      font-size: 1rem;
+      color: #555555;
+      margin-bottom: 1.5rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.8rem;
+      color: var(--accent);
+    }
+    .bio p {
+      font-size: 1rem;
+      color: #333333;
+    }
+    .works ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .works li {
+      margin-bottom: 0.6rem;
+    }
+    .works a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    .works a:hover {
+      opacity: 0.7;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #888888;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
   <main>
@@ -14,16 +81,24 @@
     <section class="bio">
       <h2>Short Bio</h2>
       <p>
-        Soy investigador postdoctoral en recomendaciones y sistemas de personalización. He trabajado en e-learning y filtrado colaborativo para sugerir problemas de programación en entornos de jueces online. (Puedes ajustar esta descripción).
+        Soy investigador postdoctoral en sistemas de recomendación y personalización. He trabajado en e-learning, filtrado colaborativo y sistemas de recomendación de contenido en distintos dominios. (Puedes ajustar esta descripción como desees).
       </p>
     </section>
 
     <section class="works">
-      <h2>Selected Works</h2>
+      <h2>Works</h2>
       <ul>
-        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">An e-learning collaborative filtering approach to suggest problems to solve in programming online judges</a></li>
-        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">[Otro trabajo que quieras destacar]</a></li>
-        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">[Y otro más]</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">Fuzzy Tools in Recommender Systems: A Survey (Int. J. Computational Intelligence Systems, 10(1), 2017)</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">A Big Data Semantic Driven Context Aware Recommendation Method for Question Answer Items (IEEE Access, 2019)</a></li>
+        <li><a href="https://lib.jucs.org/article_preview.php?id=104838" target="_blank">Exploring content-based group recommendation for suggesting restaurants in Havana City (J. Universal Computer Science, 30(1), 2024)</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">A task-focused literature recommender system for digital libraries</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">A Novel Framework to Process the Quantity and Quality of User Behavior Data in Recommender Systems</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">Context-Aware Recommendation for Question Answer Items in Big Data Environments</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">Personalization and E-Learning: A Collaborative Filtering Approach</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">Group Recommendation Systems: Current Trends and Future Directions</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">Semantic Driven Recommender Systems for Digital Libraries</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=YDBq-tIAAAAJ" target="_blank">Recommender Systems in Online Judges: Problem Suggestion for Programming</a></li>
+        <!-- Puedes añadir más trabajos aquí según tu listado público -->
       </ul>
     </section>
 
