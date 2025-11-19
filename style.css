@@ -84,6 +84,23 @@ footer {
   flex-shrink: 0;
 }
 
+.content {
+  margin-left: var(--sidebar-width);
+  padding: 2rem 3rem;
+
+  /* Mejor tipografía */
+  font-size: 15px;             /* letra más pequeña y profesional */
+  line-height: 1.7;            /* más legible */
+  font-weight: 300;            /* estilo moderno */
+
+  /* Mejores párrafos */
+  max-width: 1200px;           /* usa más ancho sin descontrolar */
+}
+
+.content p {
+  margin-bottom: 1rem;         /* espacio entre párrafos */
+}
+
 
 .profile-pic {
   width: 100%;
